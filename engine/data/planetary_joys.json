@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "doctrine": "Planetary joys by house",
+  "joys": { "Mercury": 1, "Moon": 3, "Venus": 5, "Mars": 6, "Sun": 9, "Jupiter": 11, "Saturn": 12 },
+  "default_weight": 2,
+  "traditions": ["Hellenistic", "traditional"],
+  "limitations": "A configurable traditional doctrine; house system and interpretive emphasis vary by profile."
+}

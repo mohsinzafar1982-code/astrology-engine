@@ -1,0 +1,11 @@
+{
+  "name": "Astro Election & Horary",
+  "short_name": "Astro",
+  "display": "standalone",
+  "background_color": "#07080c",
+  "theme_color": "#07080c",
+  "start_url": "/iphone.html",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

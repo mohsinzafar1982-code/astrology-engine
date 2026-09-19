@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "profiles": [{
+    "id": "traditional_composite_v1",
+    "title": "Traditional Composite v1",
+    "components": {
+      "domicile": 5, "exaltation": 4, "triplicity": 3, "term": 2, "face": 1,
+      "detriment": -5, "fall": -4, "peregrine": -5, "angular": 5, "succedent": 2,
+      "cadent": -3, "in_sect": 3, "out_of_sect": -2, "direct": 2, "retrograde": -5,
+      "stationary": -4, "cazimi": 6, "combust": -6, "under_beams": -3, "joy": 2,
+      "voc_moon": -8, "mutual_reception_domicile": 5
+    },
+    "bands": [[15,"very strong/supportive"],[8,"strong/supportive"],[3,"moderately supportive"],[-2,"mixed/neutral"],[-7,"weakened/challenging"],[-14,"severely challenged"],[-999,"very severely challenged"]],
+    "disclaimer": "An explicit research model, not an oracle or a single universally authoritative historical table."
+  }]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "system": "Chaldean faces",
+  "order": ["Mars","Sun","Venus","Mercury","Moon","Saturn","Jupiter"],
+  "signs": {
+    "Aries": ["Mars","Sun","Venus"], "Taurus": ["Mercury","Moon","Saturn"],
+    "Gemini": ["Jupiter","Mars","Sun"], "Cancer": ["Venus","Mercury","Moon"],
+    "Leo": ["Saturn","Jupiter","Mars"], "Virgo": ["Sun","Venus","Mercury"],
+    "Libra": ["Moon","Saturn","Jupiter"], "Scorpio": ["Mars","Sun","Venus"],
+    "Sagittarius": ["Mercury","Moon","Saturn"], "Capricorn": ["Jupiter","Mars","Sun"],
+    "Aquarius": ["Venus","Mercury","Moon"], "Pisces": ["Saturn","Jupiter","Mars"]
+  },
+  "boundaries": [0,10,20,30],
+  "source_note": "Traditional face sequence; alternate decan systems should be stored as separate profiles."
+}

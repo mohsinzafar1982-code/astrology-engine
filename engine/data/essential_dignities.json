@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "zodiac": "tropical",
+  "domicile": {
+    "Aries": "Mars", "Taurus": "Venus", "Gemini": "Mercury", "Cancer": "Moon",
+    "Leo": "Sun", "Virgo": "Mercury", "Libra": "Venus", "Scorpio": "Mars",
+    "Sagittarius": "Jupiter", "Capricorn": "Saturn", "Aquarius": "Saturn", "Pisces": "Jupiter"
+  },
+  "exaltation": {
+    "Sun": "Aries", "Moon": "Taurus", "Mercury": "Virgo", "Venus": "Pisces",
+    "Mars": "Capricorn", "Jupiter": "Cancer", "Saturn": "Libra"
+  },
+  "detriment": {
+    "Sun": "Aquarius", "Moon": "Capricorn", "Mercury": ["Sagittarius", "Pisces"],
+    "Venus": ["Aries", "Scorpio"], "Mars": ["Taurus", "Libra"],
+    "Jupiter": ["Gemini", "Virgo"], "Saturn": ["Cancer", "Leo"]
+  },
+  "fall": {
+    "Sun": "Libra", "Moon": "Scorpio", "Mercury": "Pisces", "Venus": "Virgo",
+    "Mars": "Cancer", "Jupiter": "Capricorn", "Saturn": "Aries"
+  },
+  "weights": { "domicile": 5, "exaltation": 4, "triplicity": 3, "term": 2, "face": 1, "detriment": -5, "fall": -4, "peregrine": -5 },
+  "limitations": "Scores are configurable study aids, not a universal historical consensus."
+}

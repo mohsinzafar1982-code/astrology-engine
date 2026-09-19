@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "citation_policy": "Do not infer quotations, exact pages, manuscripts, or consensus. Mark unverified details explicitly.",
+  "sources": [
+    {"author":"Claudius Ptolemy","work":"Tetrabiblos","category":"Hellenistic","reliability":"Primary text in translation","topics":["dignities","aspects","sect"],"citation":"Edition/translator to be selected by user; citation requires verification."},
+    {"author":"Dorotheus of Sidon","work":"Carmen Astrologicum","category":"Hellenistic","reliability":"Primary text in translation with transmission issues","topics":["triplicity","elections","houses"],"citation":"Citation requires verification."},
+    {"author":"Abū Ma‘shar al-Balkhī","work":"Great Introduction / Abbreviation","category":"Persian/Arabic","reliability":"Primary text and scholarly translations","topics":["dignities","lots","conditions"],"citation":"Edition/translator required; citation requires verification."},
+    {"author":"al-Bīrūnī","work":"Book of Instruction in the Elements of the Art of Astrology","category":"Persian/Arabic","reliability":"Primary text in translation","topics":["terms","houses","astronomy"],"citation":"Citation requires verification."},
+    {"author":"Guido Bonatti","work":"Liber Astronomiae","category":"Medieval Latin","reliability":"Primary text in translation","topics":["elections","receptions","horary"],"citation":"Citation requires verification."},
+    {"author":"William Lilly","work":"Christian Astrology","category":"Early modern horary","reliability":"Primary text","topics":["horary","void of course","scoring"],"citation":"Part/chapter/page depends on edition; citation requires verification."},
+    {"author":"Dorian Greenbaum","work":"Selected Hellenistic astrology scholarship","category":"Modern scholarship","reliability":"Secondary scholarly commentary","topics":["lots","sect","history"],"citation":"Specific work and edition required; citation requires verification."},
+    {"author":"Deborah Houlding","work":"Selected traditional astrology scholarship/commentary","category":"Modern scholarship","reliability":"Secondary commentary","topics":["houses","horary","history"],"citation":"Specific work required; citation requires verification."}
+  ],
+  "islamic_context": "Historical Muslim scholars and court astrologers produced extensive astrological literature. Islamic legal and theological opinions varied greatly, and many scholars rejected deterministic or divinatory claims. This program is not a religious ruling engine and does not issue fatwas or claim religious authority."
+}

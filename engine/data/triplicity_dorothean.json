@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "system": "Dorothean",
+  "triplicities": {
+    "Fire": { "signs": ["Aries","Leo","Sagittarius"], "day": "Sun", "night": "Jupiter", "participating": "Saturn" },
+    "Earth": { "signs": ["Taurus","Virgo","Capricorn"], "day": "Venus", "night": "Moon", "participating": "Mars" },
+    "Air": { "signs": ["Gemini","Libra","Aquarius"], "day": "Saturn", "night": "Mercury", "participating": "Jupiter" },
+    "Water": { "signs": ["Cancer","Scorpio","Pisces"], "day": "Venus", "night": "Mars", "participating": "Moon" }
+  },
+  "source_note": "Transmission and later usage vary. Profile selection must identify the active reconstruction."
+}

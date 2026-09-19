@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "rule_id": "moon_voc_traditional_strict",
+      "title": "Void of Course Moon — Strict Traditional",
+      "category": "lunar_condition",
+      "definition": "Moon has no applying Ptolemaic aspect to a traditional planet before leaving its current sign.",
+      "enabled_by_default": true,
+      "parameters": {"aspects":[0,60,90,120,180],"include_outer_planets":false,"apply_before_sign_exit":true},
+      "score_default": -8,
+      "traditions": ["traditional_horary"],
+      "source_notes": [{"author":"William Lilly","work":"Christian Astrology","note":"Interpretation requires contextual handling; definitions vary."}],
+      "limitations": "Not universally treated as a prohibition; depends on context and source."
+    },
+    {
+      "rule_id": "solar_visibility_strict",
+      "title": "Strict solar visibility thresholds",
+      "category": "solar_condition",
+      "definition": "Classify cazimi, combustion, under beams, and freedom from beams by absolute geocentric elongation from the Sun.",
+      "enabled_by_default": true,
+      "parameters": {"cazimi_arcminutes":17,"combust_degrees":8.5,"under_beams_degrees":17},
+      "score_default": 0,
+      "traditions": ["traditional_composite"],
+      "source_notes": [{"author":"Multiple traditional authors","work":"Variant doctrines","note":"Thresholds and exceptions vary; profile values are explicit configuration."}],
+      "limitations": "Mercury and Venus phases require additional context."
+    },
+    {
+      "rule_id": "joy_by_house",
+      "title": "Planetary joy",
+      "category": "accidental_dignity",
+      "definition": "Planet occupies the house traditionally assigned as its joy.",
+      "enabled_by_default": true,
+      "parameters": {"weight":2},
+      "score_default": 2,
+      "traditions": ["Hellenistic","traditional"],
+      "source_notes": [{"author":"Multiple Hellenistic sources","work":"Traditional doctrine","note":"Interpretive emphasis varies."}],
+      "limitations": "House-system implications and strength weighting are profile-dependent."
+    }
+  ]
+}
